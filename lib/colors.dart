@@ -2,4 +2,5 @@
 
 import 'package:flutter/material.dart';
 
-const MiCard_Scaffold0 = Colors.teal;
+const miCard_Container0 = Colors.blueGrey;
+const MiCard_Scaffold0 = Colors.black;
