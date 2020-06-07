@@ -2,3 +2,4 @@
 
 import 'package:flutter/material.dart';
 
+const MiCard_Scaffold0 = Colors.teal;
