@@ -1,4 +1,4 @@
-package com.example.flutter_boilerplate
+package it.anch.micard
 
 import io.flutter.embedding.android.FlutterActivity
 

@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
 import 'colors.dart';
+import 'api_secrets.dart';
+// import 
 
 void main() {
   runApp(MiCard());
@@ -17,7 +19,7 @@ class MiCard extends StatelessWidget {
               child: Container(
                 color: miCard_Container0,
                 child: Text(
-                  'Build Successful',
+                  'SHA ID: $SHA_SECRETS',
                   style: TextStyle(
                     fontWeight: FontWeight.bold),
                 ),
