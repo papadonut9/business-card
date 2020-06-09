@@ -3,11 +3,9 @@ import 'dependencies.dart';
 Column columnMain() {
   return Column(
     children: <Widget>[
-      
       CircleAvatar(
-        radius: 75,
-        backgroundColor: Avatar0,
-        child: Image.asset(''),
+        radius: 50,
+        backgroundImage: AssetImage('assets\images\vector_josiah.png'),
       ),
 
 
