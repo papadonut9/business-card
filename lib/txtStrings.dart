@@ -1,22 +1,33 @@
-import 'package:flutter/material.dart';
-import 'package:mi_card/colors.dart';
+// import 'package:flutter/material.dart';
+// import 'package:mi_card/colors.dart';
+import 'dependencies.dart';
 
 Text container0Txt() {
   return Text(
               "Container 0",
               style: TextStyle(
                 fontWeight: FontWeight.bold,
-                color: Text0,
+                color: text0,
               ),
             );
 }
 
-Text container1Txt() {
-  return Text('Container 1',
+Text container1ATxt() {
+  return Text('Container 1A',
                 textAlign: TextAlign.center,
                 style: TextStyle(
                   fontWeight: FontWeight.bold,
-                  color: text1,
+                  color: text1A,
+                ),
+              );
+}
+
+Text container1BTxt() {
+  return Text('Container 1B',
+                textAlign: TextAlign.center,
+                style: TextStyle(
+                  fontWeight: FontWeight.bold,
+                  color: text1B,
                 ),
               );
 }
