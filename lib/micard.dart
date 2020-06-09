@@ -5,7 +5,7 @@ Scaffold miCard() {
   return Scaffold(
     backgroundColor: MiCard_Scaffold0,
     body: SafeArea(
-      child: row0(),
+      child: columnMain(),
     )
   );
 }

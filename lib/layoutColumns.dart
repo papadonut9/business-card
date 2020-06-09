@@ -1,19 +1,18 @@
 import 'dependencies.dart';
 
-Row row0() {
-  return Row(
-      // verticalDirection: VerticalDirection.down,
-      mainAxisAlignment: MainAxisAlignment.spaceBetween,
+Column columnMain() {
+  return Column(
+    children: <Widget>[
       
-      children: <Widget>[
-        // containerNull(),
-        container0(),
-        spacer(),
-        column0(),
-        spacer(),
-        container2(),
-      ],
-    );
+      CircleAvatar(
+        radius: 75,
+        backgroundColor: Avatar0,
+        child: Image.asset(''),
+      ),
+
+
+    ],
+  );
 }
 
 Column column0() {

@@ -20,3 +20,6 @@ const text1B = Colors.black;
 // container 2
 const Container2 = Colors.blue;
 const text2 = Colors.yellow;
+
+// CircleAvatar0
+const Avatar0 = Colors.black12;
