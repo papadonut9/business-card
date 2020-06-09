@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'colors.dart';
-import 'api_secrets.dart';
-// import 
+import 'package:mi_card/colors.dart';
+import 'package:mi_card/containers.dart';
+// import
 
 void main() {
   runApp(MiCard());
@@ -15,23 +15,18 @@ class MiCard extends StatelessWidget {
       home: Scaffold(
           backgroundColor: MiCard_Scaffold0,
           body: SafeArea(
-            child: Center(
-              child: Container(
-                color: miCard_Container0,
-                child: Text(
-                  'SHA ID: $SHA_SECRETS',
-                  style: TextStyle(
-                    fontWeight: FontWeight.bold),
-                ),
-                width: 200,
-                height: 120,
-                padding: EdgeInsets.all(35),
-                alignment: Alignment.center,
-              ),
+            child: Column(
+              children: <Widget>[
+                container0(),
+                container1(),
+                container2(),
+              ],
             ),
           )
           // backgroundColor: miCard_Scaffold0,
           ),
     );
   }
+
+  
 }
