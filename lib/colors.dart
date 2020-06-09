@@ -3,7 +3,7 @@
 import 'package:flutter/material.dart';
 
 // Scaffold 
-const MiCard_Scaffold0 = Colors.green;
+const MiCard_Scaffold0 = Color(0xff00ff00);
 
 // container 0
 const miCard_Container0 = Colors.white;

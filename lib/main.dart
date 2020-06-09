@@ -1,32 +1,17 @@
 import 'package:flutter/material.dart';
-import 'package:mi_card/colors.dart';
-import 'package:mi_card/containers.dart';
-// import
+import 'package:mi_card/MiCard.dart';
 
 void main() {
-  runApp(MiCard());
+  runApp(MyApp());
 }
 
-class MiCard extends StatelessWidget {
+class MyApp extends StatelessWidget {
+
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
       // debugShowCheckedModeBanner: false,
-      home: Scaffold(
-          backgroundColor: MiCard_Scaffold0,
-          body: SafeArea(
-            child: Column(
-              children: <Widget>[
-                container0(),
-                container1(),
-                container2(),
-              ],
-            ),
-          )
-          // backgroundColor: miCard_Scaffold0,
-          ),
+      home: miCard(),
     );
   }
-
-  
 }
