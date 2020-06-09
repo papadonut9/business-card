@@ -13,13 +13,3 @@ Column columnMain() {
   );
 }
 
-Column column0() {
-  return Column(
-        mainAxisAlignment: MainAxisAlignment.center,
-        children: <Widget>[
-          container1A(),
-          // spacer(),
-          container1B(),
-        ],
-      );
-}
