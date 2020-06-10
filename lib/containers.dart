@@ -32,8 +32,8 @@ Container name() {
 
 Container credentialA() {
   return Container(
-    padding: EdgeInsets.symmetric(vertical: 10, horizontal: 100 ),
-    margin: EdgeInsets.symmetric(vertical:15, horizontal:45),
+    padding: EdgeInsets.symmetric(vertical: 10, horizontal: 50 ),
+    margin: EdgeInsets.symmetric(vertical:15, horizontal:100),
     color: colorTest,
     child: Row(
       children: <Widget>[
@@ -50,8 +50,8 @@ Container credentialA() {
 
 Container credentialB() {
   return Container(
-    padding: EdgeInsets.symmetric(vertical: 10, horizontal: 80 ),
-    margin: EdgeInsets.symmetric(vertical:15, horizontal:60),
+    padding: EdgeInsets.symmetric(vertical: 10, horizontal: 40 ),
+    margin: EdgeInsets.symmetric(vertical:15, horizontal:100),
     color: colorTest,
     child: Row(
       children: <Widget>[
