@@ -1,5 +1,3 @@
-// import 'package:flutter/material.dart';
-// import 'package:mi_card/MiCard.dart';
 import 'dependencies.dart';
 void main() {
   runApp(MyApp());
