@@ -1,4 +1,4 @@
-import 'dependencies.dart';
+import 'package:mi_card/dependencies.dart';
 
 
 Scaffold miCard() {

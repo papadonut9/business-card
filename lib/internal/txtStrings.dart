@@ -4,7 +4,7 @@
 //   );
 // }
 
-import 'dependencies.dart';
+import 'package:mi_card/dependencies.dart';
 
 Text nameTxt() {
   return Text(

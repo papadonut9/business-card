@@ -1,7 +1,7 @@
 // initialise your colors here as constants
 
 
-import 'dependencies.dart';
+import 'package:mi_card/dependencies.dart';
 
 // Scaffold 
 const MiCard_Scaffold0 = Colors.teal;

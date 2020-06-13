@@ -8,8 +8,8 @@
 export 'package:flutter/material.dart';
 
 // Sub-package dependencies
-export 'package:mi_card/colors.dart';
-export 'package:mi_card/containers.dart';
+export 'package:mi_card/internal/colors.dart';
+export 'package:mi_card/internal/containers.dart';
 export 'package:mi_card/micard.dart';
-export 'package:mi_card/txtStrings.dart';
-export 'package:mi_card/layoutColumns.dart';
+export 'package:mi_card/internal/txtStrings.dart';
+export 'package:mi_card/layout/layoutColumns.dart';

@@ -1,4 +1,4 @@
-import 'dependencies.dart';
+import 'package:mi_card/dependencies.dart';
 
 // Container containerNull(){
 //   return Container(
@@ -35,18 +35,11 @@ Card credentialA() {
     // padding: EdgeInsets.symmetric(vertical: 10, horizontal: 50 ),
     margin: EdgeInsets.symmetric(vertical:15, horizontal:100),
     color: colorTest,
-    child: Padding(
-      padding: const EdgeInsets.all(25),
-      child: Row(
-        children: <Widget>[
-          Icon(Icons.phone,
-          color: secondaryDetailsColor,),
-          SizedBox(
-            width: 10
-          ),
-          phoneNum(),
-        ],
+    child: ListTile(
+      leading: Icon(Icons.phone,
+        color: secondaryDetailsColor,
       ),
+      title: phoneNum(),
     ),
   );
 }
@@ -54,20 +47,22 @@ Card credentialA() {
 Card credentialB() {
   return Card(
     // padding: EdgeInsets.symmetric(vertical: 10, horizontal: 40 ),
-    margin: EdgeInsets.symmetric(vertical:15, horizontal:100),
+    margin: EdgeInsets.symmetric(vertical:10, horizontal:100),
     color: colorTest,
-    child: Padding(
-      padding: const EdgeInsets.all(25),
-      child: Row(
-        children: <Widget>[
-          Icon(Icons.email,
+    child: ListTile(
+      leading: Icon(Icons.email,
           color: secondaryDetailsColor,),
-          SizedBox(
-            width: 10
-          ),
-          eMail(),
-        ],
-      ),
+      title: eMail(),
+      // trailing: Icon(Icons.expand_more),
+    ),
+  );
+}
+
+Container div() {
+  return Container(
+    child: SizedBox(
+      width: 175,
+       child: Divider(color: roleColor,),
     ),
   );
 }

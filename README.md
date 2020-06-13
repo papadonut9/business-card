@@ -1,5 +1,5 @@
-# flutter_boilerplate
+# Business Card App
 
-This project is a minimal boilerplate code that displays hello world
+A simple app that displays your basic contact info i.e phone and e-mail
 
 
