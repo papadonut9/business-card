@@ -30,38 +30,44 @@ Container name() {
   );
 }
 
-Container credentialA() {
-  return Container(
-    padding: EdgeInsets.symmetric(vertical: 10, horizontal: 50 ),
+Card credentialA() {
+  return Card(
+    // padding: EdgeInsets.symmetric(vertical: 10, horizontal: 50 ),
     margin: EdgeInsets.symmetric(vertical:15, horizontal:100),
     color: colorTest,
-    child: Row(
-      children: <Widget>[
-        Icon(Icons.phone,
-        color: secondaryDetailsColor,),
-        SizedBox(
-          width: 10
-        ),
-        phoneNum(),
-      ],
+    child: Padding(
+      padding: const EdgeInsets.all(25),
+      child: Row(
+        children: <Widget>[
+          Icon(Icons.phone,
+          color: secondaryDetailsColor,),
+          SizedBox(
+            width: 10
+          ),
+          phoneNum(),
+        ],
+      ),
     ),
   );
 }
 
-Container credentialB() {
-  return Container(
-    padding: EdgeInsets.symmetric(vertical: 10, horizontal: 40 ),
+Card credentialB() {
+  return Card(
+    // padding: EdgeInsets.symmetric(vertical: 10, horizontal: 40 ),
     margin: EdgeInsets.symmetric(vertical:15, horizontal:100),
     color: colorTest,
-    child: Row(
-      children: <Widget>[
-        Icon(Icons.email,
-        color: secondaryDetailsColor,),
-        SizedBox(
-          width: 10
-        ),
-        eMail(),
-      ],
+    child: Padding(
+      padding: const EdgeInsets.all(25),
+      child: Row(
+        children: <Widget>[
+          Icon(Icons.email,
+          color: secondaryDetailsColor,),
+          SizedBox(
+            width: 10
+          ),
+          eMail(),
+        ],
+      ),
     ),
   );
 }
